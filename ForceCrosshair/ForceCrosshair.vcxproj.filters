@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Execution.h">
+      <Filter>Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityHandler.h">
+      <Filter>Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.h">
+      <Filter>Files\SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Files\SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="VFuncHook.h">
+      <Filter>Files\SDK\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Netvars.h">
+      <Filter>Files\SDK\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Convar.h">
+      <Filter>Files\SDK\Hook\Convar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global.cpp">
+      <Filter>Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="VFuncHook.cpp">
+      <Filter>Files\SDK\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Netvars.cpp">
+      <Filter>Files\SDK\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryPoint.cpp">
+      <Filter>Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Convar.cpp">
+      <Filter>Files\SDK\Hook\Convar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Files">
+      <UniqueIdentifier>{6a8d06f9-074e-44da-8661-72d5832d8658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\SDK">
+      <UniqueIdentifier>{650a5008-cf7f-4608-8595-d9d4a9797519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\SDK\Classes">
+      <UniqueIdentifier>{00035aeb-4542-463d-9f7a-486a0966e259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\SDK\Hook">
+      <UniqueIdentifier>{bc490ec7-8e74-4e94-b2f5-98ab95d8e397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\SDK\Offsets">
+      <UniqueIdentifier>{906953ab-dbd5-444b-a356-d73523df7c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\Global">
+      <UniqueIdentifier>{eb246ab8-27c9-4604-99e5-609cac451516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\SDK\Hook\Convar">
+      <UniqueIdentifier>{f9901181-e47e-45c9-b740-527b14c79d5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
